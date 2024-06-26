@@ -1,26 +1,29 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Next.js Starter Blog',
-  author: 'Tails Azimuth',
-  headerTitle: 'TailwindBlog',
-  description: 'A blog created with Next.js and Tailwind.css',
-  language: 'en-us',
+  title: 'Gozneokhan-Log',
+  author: '고즈넉한',
+  headerTitle: '고즈넉한 개발일지',
+  description: `안녕하세요👋 저는 백엔드 개발자 고즈넉한입니다.  
+  매일 1%씩 성장하는 것을 목표로 꾸준히 기록하고 있습니다.    
+  제 자세한 정보는 Projects와 About에서 확인 가능합니다.     
+  함께 성장하는 여정에 참여해주시면 감사하겠습니다! 😊`,
+  language: 'ko-kr',
   theme: 'system', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
   siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
-  siteLogo: '/static/images/logo.png',
-  socialBanner: '/static/images/twitter-card.png',
-  mastodon: 'https://mastodon.social/@mastodonuser',
-  email: 'address@yoursite.com',
-  github: 'https://github.com',
-  x: 'https://twitter.com/x',
+  siteLogo: '/static/images/goz-log.png',
+  socialBanner: '/static/images/goz-log.png',
+  mastodon: 'https://mastodon.social/@gozneokhan',
+  email: 'gozneokhan@gmail.com',
+  github: 'https://github.com/gozneokhan',
+  x: 'https://x.com/Gozneokhan',
   // twitter: 'https://twitter.com/Twitter',
-  facebook: 'https://facebook.com',
-  youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
-  threads: 'https://www.threads.net',
-  instagram: 'https://www.instagram.com',
-  locale: 'en-US',
+  // facebook: 'https://www.facebook.com/profile.php?id=61554655634558',
+  // youtube: 'https://www.youtube.com/channel/UCXFdu2flBQMI4tKQBAradog',
+  linkedin: 'https://www.linkedin.com/in/gozneokhan/',
+  // threads: 'https://www.threads.net/@gozneokhan',
+  instagram: 'https://www.instagram.com/gozneokhan',
+  locale: 'ko-kr',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
     // content security policy in the `next.config.js` file.
@@ -43,11 +46,11 @@ const siteMetadata = {
     //   googleAnalyticsId: '', // e.g. G-XXXXXXX
     // },
   },
-  newsletter: {
-    // supports mailchimp, buttondown, convertkit, klaviyo, revue, emailoctopus
-    // Please add your .env file and modify it according to your selection
-    provider: 'buttondown',
-  },
+  // newsletter: {
+  // supports mailchimp, buttondown, convertkit, klaviyo, revue, emailoctopus
+  // Please add your .env file and modify it according to your selection
+  //   provider: 'buttondown',
+  // },
   comments: {
     // If you want to use an analytics provider you have to add it to the
     // content security policy in the `next.config.js` file.
